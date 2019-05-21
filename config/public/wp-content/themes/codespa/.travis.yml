@@ -38,6 +38,6 @@ deploy:
   provider: heroku
   api_key:
     secure: xe7CfU3EzGNvA1zggA8GmGUSFBns+80u42l/6wNrsPAB6W7ELzK47zl1PqEs2y+t/n1s8l7+wQX/xCdzv9cmFto0Ml00jS21rDw9Ja68bRITH5j6a2elPb4oj3Nsd4wAWgC9t0QGZv5nP5hHJi2XQSsp325x55lbgUEYGpQMjoozF9dXlOa8zb7wp6qyitNxQfy0faeyfkgNmvLBWlrTdhDkpT4KuhJPii/Dn/GTfwrOS4nh8jD7mzJMxxpXhWnIFnpVhPJcni0oi6obno+1O7uAx0e41XQyiwqcG7IObFwd7BSPPGA63qA5UZ6Q6OKj4JS4t2NFvcVQAsIwwJ2coltgcm89U/XAzuieGo9q7TaDBSduZtTJWSAbbfNDiRIT3KEdrvzYPitV1Tb+jGDQ94imFjO+4SuV2JEG8j2ABexL30yS342fMhjsZCyOt3clG2gnTEK2QDroJvNtgJoTLjd8MxWaqjPM+7Chfv6hBszBbvqY/yi/xdggAzkVTrgtvoXq7lNOEBOcJF39gbq5l/A5xTmOoWYnrBIM2ZCcbQz9//dL9OQye+YLAH3yc0EzC11iVm5d5XeunsifDque51I/H+I150SXV4rFwU3HYCBmn6af6yXkcWye1/imj2yLmSHg+rT2hjgAsSuP0kxwTufeDq9zBg2kpkTNgoQogbI=
-  app: codespa-america
+  app: codespa
   on:
     all_branches: true    
