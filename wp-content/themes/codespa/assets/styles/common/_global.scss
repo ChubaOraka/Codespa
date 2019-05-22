@@ -1,0 +1,293 @@
+* {
+  position: relative;
+}
+
+@media (min-width: $screen-sm-min) {
+  h1:first-child,
+  h2:first-child,
+  h3:first-child,
+  h4:first-child,
+  h5:first-child {
+    margin-top: 0;
+  }
+}
+
+h1 {
+  font-size: 44px;
+  color: $codespa-orange;
+}
+
+h2 {
+  font-size: 36px;
+  color: $codespa-blue;
+}
+
+h3 {
+  font-size: 30px;
+  color: $codespa-blue;
+}
+
+@media (min-width: $screen-sm-min) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+}
+
+p.lead {
+  font-style: italic;
+}
+
+.btn {
+  border: none;
+}
+
+.banner {
+  position: relative;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  padding: 0;
+
+  .container {
+    position: relative;
+    height: 100%;
+  }
+
+  &:not(.banner-home):before {
+    z-index: 500;
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    background-color: $codespa-blue;
+  }
+
+  .headline {
+    position: absolute;
+    bottom: 0;
+    z-index: 1000;
+
+    @include gradient-vertical(rgba($codespa-blue, 0.8), rgba($codespa-blue,1));
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+
+    h1 {
+      color: #fff;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    @media (min-width: $screen-sm-min) {
+      left: 25%;
+      width: 50%;
+      padding: 20px 15px 10px 15px;
+
+      @include gradient-vertical(rgba(255,255,255,0.75), rgba(255,255,255,1));
+
+      h1 {
+        color: $codespa-orange;
+      }
+    }
+    @media (min-width: $screen-md-min) {
+      left: 30%;
+      width: 40%;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.section-header {
+
+  height: 150px;
+  position: relative;
+  background: #000000;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  @media (min-width: $screen-sm-min) {
+    height: 240px;
+  }
+
+  &-banner {
+  position: relative;
+  background: #000000;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  }
+
+  h2 {
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+    left: 0;
+    padding: 0 15px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0,0,0,0.6);
+
+    @media (min-width: $screen-sm-min) {
+      bottom: 75px;
+    }
+  }
+}
+
+$section-vertical-padding-mobile: 40px;
+$section-vertical-padding: 60px;
+
+.section-padded {
+  padding-top: $section-vertical-padding-mobile;
+  padding-bottom: $section-vertical-padding-mobile;
+
+  + .section-padded {
+    padding-top: 0;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    padding-top: $section-vertical-padding;
+    padding-bottom: $section-vertical-padding;
+  }
+}
+
+ul.fa-ul {
+  margin-left: 1.6em;
+}
+.fa-ul li {
+  padding-bottom: 6px;
+}
+
+.fa-ul li .fa-li {
+  margin-top: 1px;
+}
+
+.popover-title {
+  text-align: center;
+}
+
+.fa-plus {
+  font-size: 12px;
+}
+
+img.orbit,
+.globe,
+a.orbit img {
+  max-width: 100%;
+  @extend .img-circle;
+}
+
+a.orbit {
+  display: block;
+  max-width: 100%;
+}
+
+$orbitHorzShift: -35px;
+$orbitVertShift: -10px;
+
+.orbit {
+  position: relative;
+  z-index: 100;
+
+  &:last-child {
+    z-index: 1;
+  }
+}
+
+.orbit-right {
+  float: left;
+
+  &:first-child,
+  &:last-child {
+    margin-left: $orbitHorzShift;
+  }
+
+  &:first-child {
+    margin-bottom: $orbitVertShift;
+    margin-top: $orbitVertShift * -1;
+  }
+
+  &:last-child {
+    margin-top: $orbitVertShift;
+    margin-bottom: $orbitVertShift * -1;
+  }
+}
+
+.orbit-left {
+  float: right;
+
+  &:first-child,
+  &:last-child {
+    margin-right: $orbitHorzShift;
+  }
+
+  &:first-child {
+    margin-bottom: $orbitVertShift;
+    margin-top: $orbitVertShift * -1;
+  }
+
+  &:last-child {
+    margin-top: $orbitVertShift;
+    margin-bottom: $orbitVertShift * -1;
+  }
+}
+
+html:not(.no-flexbox) {
+  .vertical-align-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    .vertical-align {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+    }
+  }
+}
+
+// common section styles
+
+.section-expertise,
+.section-projects {
+	text-align: center;
+
+  .orbit {
+    width: 220px;
+  }
+}
+
+.outdated-browser {
+  @extend .alert;
+  @extend .alert-danger;
+  border-radius: 0;
+  margin: 0;
+  a {
+    color: $brand-danger;
+    font-weight: bold;
+  }
+}
+
+a:focus {
+  outline: none;
+}
