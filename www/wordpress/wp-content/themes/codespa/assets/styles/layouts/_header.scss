@@ -1,0 +1,95 @@
+.header-top {
+  position: relative;
+  z-index: 5001;
+
+  background-color: $codespa-blue;
+  height: 50px;
+  padding-top: 10px;
+
+  .btn-donate,
+  .btn-sign-up {
+    @extend .btn;
+    @extend .btn-primary;
+
+    background-color: darken($codespa-green,5%);
+    border: darken($codespa-green,14%);
+    text-transform: uppercase;
+    margin-right: 10px;
+
+    &:hover {
+      background-color: darken($codespa-green,12%);
+      border: darken($codespa-green,22%);
+    }
+  }
+
+  .socials {
+    @extend .pull-right;
+    font-size: $font-size-base * 1.5;
+
+    a {
+      color: #fff;
+      margin-left: 15px;
+
+      &:hover {
+        color: $brand-primary;
+      }
+    }
+  }
+}
+
+.header-banner {
+  @extend .navbar;
+  @extend .navbar-inverse;
+  @extend .navbar-fixed-top;
+
+  position: absolute;
+  z-index: 5000;
+  top: 50px;
+  right: 0;
+  left: 0;
+
+  .navbar-brand {
+    font-weight: bold;
+    z-index: 9999;
+  }
+
+  .navbar-brand img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .navbar-nav {
+    font-weight: bold;
+    @media (min-width: $screen-sm-min) {
+      text-shadow: 1px 1px rgba(0,0,0,0.5);
+    }
+  }
+
+  .nav>li {
+    font-size: $font-size-base * 1.2;
+  }
+  .nav>li a:hover,
+  .nav>li.active a {
+    text-decoration: underline;
+  }
+
+  @media (max-width: $grid-float-breakpoint-max) {
+    .navbar-header {
+      background-color: rgba($codespa-orange,1);
+      border-bottom: 1px solid darken($codespa-orange,10%);
+    }
+
+    .navbar-collapse,
+    .navbar-form {
+      @include gradient-vertical(rgba($codespa-orange,0.95), rgba($codespa-orange,0.7), 0%, 100%);
+      border: none;
+    }
+  }
+
+  @media (min-width: $screen-sm-min) {
+    .nav.navbar-nav {
+      margin-top: 65px;
+      margin-left: 40px;
+    }
+  }
+}

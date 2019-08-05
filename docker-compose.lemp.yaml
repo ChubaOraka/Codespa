@@ -1,0 +1,38 @@
+version: '2'
+services:
+  nginx:
+    image: nginx:1.11
+    ports:
+      - "80:80"
+    links:
+      - mysql
+      - fpm
+    volumes:
+      - ./www/wordpress:/var/www/wordpress
+      - ./configures/conf.d:/etc/nginx/conf.d:ro
+
+  mysql:
+    image: mysql:5.7
+    volumes:
+       - ./data/mysql:/var/lib/mysql
+       - ./data-dump/wordpress.sql:/docker-entrypoint-initdb.d/wordpress.sql  # Trying to import data
+      #  - mysql_conf:/etc/mysql  # Making MYSQL configuratons persistent
+    # command: '--default-authentication-plugin=mysql_native_password'
+    restart: always
+    environment:
+      # - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=codespa
+      - MYSQL_USER=root
+      # - MYSQL_PASSWORD=testerpw
+      - MYSQL_ALLOW_EMPTY_PASSWORD='yes'
+
+
+  fpm:
+    build: images/nginxphp
+    volumes:
+      - ./www/wordpress:/var/www/wordpress
+    links:
+      - mysql
+
+volumes:
+    mysql_conf:
