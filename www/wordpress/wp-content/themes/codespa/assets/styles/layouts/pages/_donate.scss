@@ -1,0 +1,75 @@
+.banner-donate {
+  background-image: url("../images/home-banner-1.jpg");
+  height: 320px;
+}
+
+.section-donate {
+  .address {
+    &-title{
+      color: $codespa-orange;
+      font-size: 18px;
+    }
+  }
+
+  .map-donate {
+    height: 240px;
+    width: 100%;
+    z-index: 1;
+
+    @media (max-width: $screen-xs-max) {
+      max-height: 450px;
+    }
+  }
+
+  ul.gfield_radio {
+    li {
+      display: inline-block;
+      margin-left: 10px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+  .donate-inline {
+    .ginput_container{
+      @extend .row;
+
+      span {
+        @extend .col-xs-12;
+        @extend .col-sm-6;
+
+        @media (max-width: $screen-xs-max) {
+          margin-bottom: 10px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+
+        label {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .donate-address {
+    .ginput_container{
+      @extend .row;
+
+      span {
+        @extend .col-xs-12;
+        @extend .col-sm-6;
+
+        @media (max-width: $screen-xs-max) {
+          margin-bottom: 10px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
