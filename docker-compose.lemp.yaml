@@ -34,5 +34,5 @@ services:
     links:
       - mysql
 
-volumes:
-    mysql_conf:
+# volumes:
+#     mysql_conf:
