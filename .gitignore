@@ -1,0 +1,3 @@
+www/wordpress-test
+*.gz
+data/mysql/*
