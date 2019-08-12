@@ -1,3 +1,4 @@
 www/wordpress-test
 *.gz
 data/mysql/*
+data-dump/wordpress.?.bak.sql
