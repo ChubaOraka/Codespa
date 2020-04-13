@@ -1,15 +1,22 @@
 version: '2'
 services:
-  nginx:
-    image: nginx:1.11
+  wordpress:
+    image: wordpress:5.2.1
+    depends_on:
+      - mysql
     ports:
       - "80:80"
-    links:
-      - mysql
-      - fpm
+    restart: always
+    environment:
+      # - MYSQL_ROOT_PASSWORD=password
+      - WORDPRESS_DB_NAME=codespa
+      - WORDPRESS_DB_USER=root
+      # - MYSQL_PASSWORD=testerpw
+      # - MYSQL_ALLOW_EMPTY_PASSWORD='yes'
     volumes:
-      - ./www/wordpress:/var/www/wordpress
-      - ./configures/conf.d:/etc/nginx/conf.d:ro
+      - ./www/wordpress/wp-content/themes:/var/www/html/wp-content/themes       # Themes subdirectory
+      - ./www/wordpress/wp-content/plugins:/var/www/html/wp-content/plugins    # Plugins subdirectory
+
 
   mysql:
     image: mysql:5.7
@@ -26,29 +33,8 @@ services:
       # - MYSQL_PASSWORD=testerpw
       - MYSQL_ALLOW_EMPTY_PASSWORD='yes'
 
-  wordpress:
-    depends_on: 
-      - db
-    image: wordpress:5.1.1-fpm-alpine
-    container_name: wordpress
-    restart: unless-stopped
-    env_file: .env
-    environment:
-      - WORDPRESS_DB_HOST=db:3306
-      - WORDPRESS_DB_USER=$MYSQL_USER
-      - WORDPRESS_DB_PASSWORD=$MYSQL_PASSWORD
-      - WORDPRESS_DB_NAME=wordpress
-    volumes:
-      - wordpress:/var/www/html
-    networks:
-      - app-network
 
-  fpm:
-    build: images/nginxphp
-    volumes:
-      - ./www/wordpress:/var/www/wordpress
-    links:
-      - mysql
+
 
 # volumes:
 #     mysql_conf:
