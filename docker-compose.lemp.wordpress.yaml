@@ -8,14 +8,11 @@ services:
       - "80:80"
     restart: always
     environment:
-      # - MYSQL_ROOT_PASSWORD=password
       - WORDPRESS_DB_NAME=codespa
       - WORDPRESS_DB_USER=root
-      # - MYSQL_PASSWORD=testerpw
-      # - MYSQL_ALLOW_EMPTY_PASSWORD='yes'
     volumes:
-      - ./www/wordpress/wp-content/themes:/var/www/html/wp-content/themes       # Themes subdirectory
-      - ./www/wordpress/wp-content/plugins:/var/www/html/wp-content/plugins    # Plugins subdirectory
+      - ./www/themes:/var/www/html/wp-content/themes        # Themes subdirectory
+      - ./www/plugins:/var/www/html/wp-content/plugins      # Plugins subdirectory
 
 
   mysql:
@@ -23,18 +20,11 @@ services:
     volumes:
        - ./data/mysql:/var/lib/mysql
        - ./data-dump/wordpress.sql:/docker-entrypoint-initdb.d/wordpress.sql  # Trying to import data
-      #  - mysql_conf:/etc/mysql  # Making MYSQL configuratons persistent
-    # command: '--default-authentication-plugin=mysql_native_password'
     restart: always
     environment:
-      # - MYSQL_ROOT_PASSWORD=password
       - MYSQL_DATABASE=codespa
       - MYSQL_USER=root
-      # - MYSQL_PASSWORD=testerpw
       - MYSQL_ALLOW_EMPTY_PASSWORD='yes'
 
 
 
-
-# volumes:
-#     mysql_conf:
