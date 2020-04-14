@@ -275,7 +275,7 @@
           "properties":{
             "id":"marker-ibjt6reu1",
             "title":"Nicaragua",
-            "description":"CODESPA is helping ranchers to grow their cattle-businesses and their incomes in Nicaragua. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"Nicaragua\">Our Impact</a> page.",
+            "description":"CODESPA is helping ranchers to grow their cattle-businesses and their incomes in Nicaragua. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"Nicaragua\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
@@ -294,7 +294,7 @@
           "properties":{
             "id":"marker-ij1n2pis0",
             "title":"New York",
-            "description":"CODESPA is supporting the creation of an endowment fund to provide scholarships for inner-city youth to attend the South Bronx Educational Foundation's transformative educational and life skills programs. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"New York\">Our Impact</a> page.",
+            "description":"CODESPA is supporting the creation of an endowment fund to provide scholarships for inner-city youth to attend the South Bronx Educational Foundation's transformative educational and life skills programs. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"New York\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
@@ -313,7 +313,7 @@
           "properties":{
             "id":"marker-ibjt6vs22",
             "title":"Peru",
-            "description":"CODESPA is helping to create an alternative education system in rural areas that includes innovative classes in agriculture and rural enterprise development. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"Peru\">Our Impact</a> page.",
+            "description":"CODESPA is helping to create an alternative education system in rural areas that includes innovative classes in agriculture and rural enterprise development. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"Peru\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
@@ -332,7 +332,7 @@
           "properties":{
             "id":"marker-ibjt76zh4",
             "title":"Bolivia",
-            "description":"CODESPA is generating sustainable micro-enterprises in the rural tourism industry in the Andean region. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"Nicaragua\">Our Impact</a> page.",
+            "description":"CODESPA is generating sustainable micro-enterprises in the rural tourism industry in the Andean region. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"Nicaragua\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
@@ -351,7 +351,7 @@
           "properties":{
             "id":"marker-ibjt7hpp5",
             "title":"Morocco",
-            "description":"CODESPA is providing professional formation and labor market insertion to Moroccan women and at-risk youth. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"Morocco\">Our Impact</a> page.",
+            "description":"CODESPA is providing professional formation and labor market insertion to Moroccan women and at-risk youth. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"Morocco\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
@@ -370,7 +370,7 @@
           "properties":{
             "id":"marker-ibjt7l9i6",
             "title":"DR Congo",
-            "description":"CODESPA is providing professional training for at-risk youth in the Democratic Republic of the Congo. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"DR Congo\">Our Impact</a> page.",
+            "description":"CODESPA is providing professional training for at-risk youth in the Democratic Republic of the Congo. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"DR Congo\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
@@ -389,7 +389,7 @@
           "properties":{
             "id":"marker-ibjt7ydq8",
             "title":"Vietnam",
-            "description":"CODESPA is contributing to the development of local incomes in north Vietnam through the creation of a market for innovative new fertilizer pellets. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"Vietnam\">Our Impact</a> page.",
+            "description":"CODESPA is contributing to the development of local incomes in north Vietnam through the creation of a market for innovative new fertilizer pellets. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"Vietnam\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
@@ -408,7 +408,7 @@
           "properties":{
             "id":"marker-ibl10ij51",
             "title":"Colombia",
-            "description":"CODESPA is helping Colombian farmers gain the necessary skills and requisite equipment to grow their agro-businesses and incomes. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"Colombia\">Our Impact</a> page.",
+            "description":"CODESPA is helping Colombian farmers gain the necessary skills and requisite equipment to grow their agro-businesses and incomes. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"Colombia\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
@@ -427,7 +427,7 @@
           "properties":{
             "id":"marker-igwt9ckr1",
             "title":"Angola",
-            "description":"CODESPA is helping farmers’ cooperatives to develop seed banks and grain storage micro-silos to save their harvests. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"Colombia\">Our Impact</a> page.",
+            "description":"CODESPA is helping farmers’ cooperatives to develop seed banks and grain storage micro-silos to save their harvests. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"Colombia\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
@@ -446,7 +446,7 @@
           "properties":{
             "id":"marker-igwt7gfy0",
             "title":"Philippines",
-            "description":"CODESPA is fostering local development by supporting the improvement of rubber tree farming and the rubber processing industry. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"Colombia\">Our Impact</a> page.",
+            "description":"CODESPA is fostering local development by supporting the improvement of rubber tree farming and the rubber processing industry. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"Colombia\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
@@ -465,7 +465,7 @@
           "properties":{
             "id":"marker-ibrxy9143",
             "title":"Honduras",
-            "description":"CODESPA is training local micro-enterprises and farmers in the production and use of drip-irrigation to improve their crop yields. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"Colombia\">Our Impact</a> page.",
+            "description":"CODESPA is training local micro-enterprises and farmers in the production and use of drip-irrigation to improve their crop yields. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"Colombia\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
@@ -484,7 +484,7 @@
           "properties":{
             "id":"marker-ibrxtiss0",
             "title":"Ecuador",
-            "description":"CODESPA is strengthening local micro-financial institutions’ capacity to design new products and offer credit to farmers and micro-enterprises in rural areas. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"Colombia\">Our Impact</a> page.",
+            "description":"CODESPA is strengthening local micro-financial institutions’ capacity to design new products and offer credit to farmers and micro-enterprises in rural areas. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"Colombia\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
@@ -503,7 +503,7 @@
           "properties":{
             "id":"marker-ibrxwrdt1",
             "title":"Guatemala",
-            "description":"CODESPA is assisting communities in generating savings and gaining access to financial credit for farm improvements. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"Colombia\">Our Impact</a> page.",
+            "description":"CODESPA is assisting communities in generating savings and gaining access to financial credit for farm improvements. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"Colombia\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
@@ -521,7 +521,7 @@
           "type":"Feature",
           "properties":{
             "id":"marker-ibrxykfk4",
-            "title":"Dominican Republic","description":"CODESPA is working with the European Union to strengthen cooperatives of banana producers in a project aimed at improving production capacity and natural resource management. Learn about more of our projects on the <a href=\"http://www.codespa-america.com/impact\" title=\"Colombia\">Our Impact</a> page.",
+            "title":"Dominican Republic","description":"CODESPA is working with the European Union to strengthen cooperatives of banana producers in a project aimed at improving production capacity and natural resource management. Learn about more of our projects on the <a href=\"http://www.codespa-america.org/impact\" title=\"Colombia\">Our Impact</a> page.",
             "marker-size":"medium",
             "marker-color":"ef7b22",
             "marker-symbol":""
