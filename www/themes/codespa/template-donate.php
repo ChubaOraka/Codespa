@@ -22,7 +22,7 @@
         <img class="col-sm-4 img-circle" src="https://placehold.it/75"> -->
         
         <section class="section-padded">
-          <div class="row vertical-align">
+          <div class="row">
               <div class="col-sm-6">
                 <h3>Give Online</h2>
                 <p>Donate securely online on <a href='https://codespa-america.givingfuel.com/codespa-america-donation-link'>our Giving Fuel Platform</a>.</p>
